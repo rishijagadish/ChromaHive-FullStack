@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ChromaHive</title>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="frontend-art">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta name="author" content="ChromaHive">
+<meta name="generator" content="chrome">
+  
+
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+<link rel="stylesheet" href="plugins/themefisher-font/style.css">
+<link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="plugins/animate/animate.css">
+<link rel="stylesheet" href="plugins/slick/slick.css">
+<link rel="stylesheet" href="plugins/slick/slick-theme.css">
+<link rel="stylesheet" href="css/style.css">`
+<link rel="stylesheet" href="./css/main.css">
+
+	<!--<script type="text/javascript">
+		$(document).ready(function(){
+
+			$( "#form" ).submit(function(event) {
+				event.preventDefault();
+
+				$.ajax({
+					type: 'POST',
+					url: '/login',
+					data: $('#form').serialize(),
+					dataType: "json",
+					success: function(response){
+						//alert("a");
+						//console.log(response.Success);
+						$('#form')[0].reset();
+
+						document.getElementById("check").innerHTML=response.Success;
+         					//ADD THIS CODE
+         					setTimeout(function(){
+         						document.getElementById("check").innerHTML="";
+         					},3000);
+         					if (response.Success=="Success!") {
+         						document.getElementById("aa").click();
+         					};
+         				},
+         				error: function() {
+         				}
+         			})
+			});
+
+		});
+	</script>
+</head> -->
+<body id="body">
+	<body style="margin: 0; padding: 0; background: url('images/background1.jpg') no-repeat center center fixed; background-size: cover; height: 100vh; display: flex; align-items: center; justify-content: center;">  
+  <section class="signin-page account">
+	<div class="container">
+	  <div class="row">
+		<div class="col-md-6 col-md-offset-3">
+		  <div class="block text-center">
+			<a class="logo" href="data.ejs">
+			  <img src="images/logo.png" alt="">
+			</a>
+			<h2 class="text-center">LOGIN TO YOUR ACCOUNT</h2>
+			<div class="form-group">
+			  <form id="form1">
+				
+				<input type="text" name="username" placeholder="Username"  class="form-control"><br/>
+				<input type="password" name="password" placeholder="Password" class="form-control"><br/>
+				<button type="submit" style="background-color: green; color: white; padding: 10px; border: none; cursor: pointer;">
+					<a href="index1.html" style="color: white; text-decoration: none;">Login</a>
+				
+			  </form>
+			</div>
+			
+
+			<div>
+			  <span>Forgot Password?? <a href="/forgetpass">Change Password</a></span>
+			</div>
+			<!--<form class="text-left clearfix" action="data.ejs">
+			  <div class="form-group">
+				<input type="text" class="form-control"  placeholder="First Name">
+			  </div>
+			  <div class="form-group">
+				<input type="text" class="form-control"  placeholder="Last Name">
+			  </div>
+			  <div class="form-group">
+				<input type="text" class="form-control"  placeholder="Username">
+			  </div>
+			  <div class="form-group">
+				<input type="email" class="form-control"  placeholder="Email">
+			  </div>
+			  <div class="form-group">
+				<input type="password" class="form-control"  placeholder="Password">
+			  </div>
+			  <div class="text-center">
+				<button type="submit" class="btn btn-main text-center">Sign In</button>
+			  </div>
+			</form>
+			<p class="mt-20">Already have an account ?<a href="login.ejs"> Login</a></p>
+			<p><a href="forget-forgot.ejs"> Forgot your password?</a></p>-->
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </section>
+  
+	  
+  
+	  <script src="plugins/jquery/dist/jquery.min.js"></script>
+  
+	  <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+  
+	  <script src="plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.js"></script>
+	  <script src="plugins/ekko-lightbox/dist/ekko-lightbox.min.js"></script>
+	 
+	  <script src="plugins/syo-timer/build/jquery.syotimer.min.js"></script>
+  
+	
+	  <script src="plugins/slick/slick.min.js"></script>
+	  <script src="plugins/slick/slick-animation.min.js"></script>
+  
+  
+  <script src="js/script.js"></script>
+	  
+  
+  
+	</body>
+	</html>
